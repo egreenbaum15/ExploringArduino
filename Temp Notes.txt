@@ -1,0 +1,7 @@
+Ok so using the Arduino docs in GitHub and I don't understand the point of creating two functions for initializing LCD-
+I get the need to protect it and access with a public one, but init_priv() doesn't seem private??
+Also assuming LCD_I2C::method() is lambda use like a command..? need to check 
+	^ C++ "::" is a scope resolution operator
+	ans: "https://www.geeksforgeeks.org/scope-	resolution-operator-in-c/"
+	
+
