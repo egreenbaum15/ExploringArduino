@@ -1,0 +1,19 @@
+Hardware Intro
+- Arduino Uno
+- Uses serial bus (USB) to connect hardware to software
+- Arduino is just a circuit board w/ a microcontroller to delegate between input/output
+- Serial buses/ parallel buses transfer data via in and out of terminals
+- USB -> Serial port: How does information cross omni-directional?
+- 20 different general purpose input / output pins (GPIO)
+- Arduino shields are add-ons that achieve specific functions (like building a computer)
+- Arduino Uno Rev3 has a USB-A port? Instead of USB-AB (printer port)?
+- TX and RX pins are used for comms 
+- PWM -> pulse width modulation
+	Changes voltage (low, high) at different frequencies
+- 6 analog inputs
+- Analog -> continuous variable voltage signal
+- Analog-to-digital converter (ADC) -> Voltage
+	ADC:   0  512  1-23	ADC val = 204.6 * Voltage
+	Volts: 0  2.5  5	
+- Power: USB port is great, you can also use a DC jack or V-in pin w/ limits of 7-20V (stick w/ 12V?)
+- Reset pin and bottom are power
