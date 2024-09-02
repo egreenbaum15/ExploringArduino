@@ -1,0 +1,33 @@
+//in arduino ide
+
+void s_morse() {
+  for (int i = 0; i < 3; i++){
+    digitalWrite(LED_BUILTIN, HIGH);
+  	delay(500);
+  	digitalWrite(LED_BUILTIN, LOW);
+  	delay(500); 
+  } 
+}
+
+void o_morse() {
+  for (int i = 0; i < 3; i++){
+  	digitalWrite(LED_BUILTIN, HIGH);
+  	delay(1000);
+ 	 digitalWrite(LED_BUILTIN, LOW);
+ 	 delay(500);
+  }
+}
+
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  s_morse();
+  o_morse();
+  s_morse();
+  
+  delay(1000);
+}
