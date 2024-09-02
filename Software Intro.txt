@@ -1,0 +1,8 @@
+Software Intro
+- Called a "sketch" (eww)
+- 2 main sections of body: void setup() and void loop()
+- Arduino IDE has example code in Files -> Example with comments
+- Set Arduino Board & Port to begin uploading code
+- "Verify" button to build code
+- "Upload" button to deploy code
+- Arduino basically takes convoluted binary code (in which you have to manually store information in defined space) and uses C++ for code "scripts" (again ew)
